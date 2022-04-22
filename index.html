@@ -10,34 +10,44 @@
     <title>resume ks sesult</title>
 </head>
 <body>
-    <img src="foto.img/photo_2022-03-20_20-43-555.jpg" alt="my foto">
+    <div class="container"></div>
     <header>
+    <div class="information">
+    <img src="foto.img/photo_2022-03-20_20-43-555.jpg" alt="my foto" class="avatar">
+    <div class="infotext">
         <h1>Oksana Soprun</h1>
         <p>I am learning <strong>Front end</strong> development.
-       <em>I love to travel, learn something new, read books, look at the ocean, art, skateboarding. Spend time with
+       <em>I love to travel, learn something new, read books, look at the ocean, art, skateboarding.
+           <br>
+    Spend time with
     family and play with animals.</em></p>
      <h4>List of social networks:</h4>
     <a href="https://www.instagram.com/ks.soprun/?hl=hi" target="_blank">Instagram </a>|
     <a href="https://hi-in.facebook.com/ksu.lash.3" target="_blank">Facebook </a>|
     <a href="https://www.linkedin.com/feed/" target="_blank">Linkedin </a>
+    </div>
+    </div>
     </header>
     <aside>
+        <div class="card-hobbi">
     <h2>My hobbies</h2>
-    <ol>
+    <ol class="list">
         <li>Trips</li>
         <li>Reading</li>
         <li>Big tennis</li>
         <li>Stretching</li>
     </ol>
+    </div>
+    <div class="card-experience">
     <h2>Experience</h2>
-    <table>
-        <thead>
+    <table class="table">
+        <!-- <thead>
           <tr>
               <th>Name</th>
               <th>Position</th>
               <th>The date</th>
           </tr>   
-        </thead>
+        </thead> -->
         <tbody>
             <tr>
                 <td>Villa Riviera</td>
@@ -56,26 +66,31 @@
                 </tr>
         </tbody>
     </table>
+</div>
     </aside>
     <footer>
-    <h2>Contact with me</h2>
-    <form action="/">
+    <form action="/" class="form">
+        <h2>Contact with me</h2>
         <div>
             <label for="name">Your name:</label>
+            <br>
             <input type="text" id="name" placeholder="Enter your name">
         </div>
+        <br>
         <div>
             <label for="email">Your e-mail:</label>
+            <br>
             <input type="email" id="email" placeholder="Enter email">
         </div>
-        
+        <br>
         <div>
             <label for="message">Your message:</label>
-            <br>
+       <br>
             <textarea  id="message" cols="30" rows="10" placeholder="Enter a message"></textarea>
         </div>
-        <input type="submit" value="Send">
+        <input  class='but' type="submit" value="Send">
     </form>
     </footer>
+    </div>
 </body>
 </html>

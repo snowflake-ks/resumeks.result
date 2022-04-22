@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+   background: #f1f1f1;
+   color: #0f0f0f;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.information {
+    margin-bottom: 20px;
+    display: flex;
+}
+.infotext p {
+font-style: italic;
+font-weight: bold;
+}
+.infotext h4 {
+    margin-bottom: 5px;
+}
+.card-hobbi {
+    background: rgba(220, 81, 146, 0.223);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.card-experience {
+    background: rgba(80, 255, 249, 0.385);
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+a {
+    color: rgb(221, 92, 174);
+    text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+.but {
+    background: #0f0f0f;
+    padding: 15px 60px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.but:hover {
+    opacity: 0.8;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    color: #777a7e;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(162, 158, 158);
+    padding-bottom: 3px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #777a7e;
+}
+.form {
+    display: block;
+    font-size: 14px;
+    color: #535659;
+}
+.form h2 {
+    text-align: center;
+}
+@media ( max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.infotext {
+    margin-left: 40px;
+    margin-top: 40px;
+} 
